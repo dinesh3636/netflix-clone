@@ -1,10 +1,12 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import Body from './Components/Body'
 
 const App = () => {
   return (
-    <div  className='text-5xl '>
-      Hello 
-    </div>
+    <BrowserRouter>
+    <Body/>
+    </BrowserRouter>
   )
 }
 
